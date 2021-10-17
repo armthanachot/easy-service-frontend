@@ -1,5 +1,6 @@
 <template>
-  <v-navigation-drawer v-model="drawer" :mini-variant.sync="mini" permanent>
+  <v-navigation-drawer v-model="drawer" :mini-variant.sync="mini" permanent fixed>
+    <!-- fixed props คือใส่ให้ อะไรอื่นๆไม่กระทบ -->
     <v-list-item class="px-2">
       <v-list-item-avatar>
         <v-img src="https://randomuser.me/api/portraits/men/85.jpg"></v-img>
